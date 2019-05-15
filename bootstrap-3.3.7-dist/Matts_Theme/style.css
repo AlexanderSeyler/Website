@@ -430,6 +430,15 @@ font-family: 'Lato', sans-serif;
 }
 }
 
+@media only screen and (max-width: 991px) {
+ .leftfoot img{
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+    
+   
+}
+
 @media only screen and (max-width: 715px) {
  .leftfoot h1{
     text-align:center;
@@ -437,6 +446,15 @@ font-family: 'Lato', sans-serif;
     color:#fff;
      font-family: 'Amaranth', sans-serif;
     font-size:1.15em;
+    
+   
+}
+    
+@media only screen and (max-width: 715px) {
+ .leftfoot img{
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
     
    
 }
@@ -632,7 +650,15 @@ font-family: 'Lato', sans-serif;
     
    
 }
+    
 
+}
+@media only screen and (max-width: 460px) {
+     .leftfoot img{
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+    }
 }
 
 @media only screen and (max-width: 460px) {
