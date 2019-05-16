@@ -1,3 +1,6 @@
+.navbar{
+    margin-bottom:0px;
+}
 .navbar a{
    font-size:1em;
    margin-top:20px;
@@ -7,7 +10,6 @@
     color:#fff;
     font-weight: 800;
 }
-
 
 .navbar-brand{
     height:100px;
@@ -217,10 +219,6 @@ font-family: 'Lato', sans-serif;
 }
 
 
-
-
-
-
 .middlefoot{
     padding:20px;
 }
@@ -260,14 +258,167 @@ font-family: 'Lato', sans-serif;
 
 
 
-@media only screen and (max-width: 900px) {
-    .navbar-brand{
-    height:85px;
-    padding-left:60px;
+
+
+
+
+
+
+
+
+/*ABOUT ME PAGE*/
+
+.aboutme{
+    background-color:#fff;
     
 }
 
+
+.maintext h2{
+    color:#51cae2;/* make the text white*/
+    font-size:4.625em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:30px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
 }
+
+.maintext h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:100%;/* decrease the line height*/
+    margin-top:10px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 10px;
+    padding-left:80px;
+}
+
+.maintext h4{
+    color:black;/* make the text white*/
+    font-size:1.15em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 20px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:80px;
+}
+
+
+
+.maintext p{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+  /* padding-bottom: 20px;*/
+    padding-bottom: 20px;
+    text-align:left;
+    padding-left:80px;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.maintext img{
+    
+   max-height:500px;
+       
+    
+}
+
+
+/*ABOUT ME PAGE*/
+
+
+
+
+/*CONTACT PAGE*/
+
+.contactme{
+    background-color:#fff;
+    
+}
+
+
+.contactmatt h2{
+    color:#51cae2;/* make the text white*/
+    font-size:4.625em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:30px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.contactmatt h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:100%;/* decrease the line height*/
+    margin-top:10px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 10px;
+    padding-left:60px;
+}
+
+.contactmatt h4{
+    color:black;/* make the text white*/
+    font-size:1.15em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 50x;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:60px;
+}
+
+.contactmatt h5{
+    color:black;/* make the text white*/
+    font-size:1.15em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 30px;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    padding-left:60px;
+}
+
+
+.contactmatt p{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+  /* padding-bottom: 20px;*/
+    padding-bottom: 20px;
+    text-align:left;
+    padding-left:60px;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+
+
+/*CONTACT PAGE*/
+
+
+
+
+
+
+
+
+/*1200PX EDITS*/
 
 @media only screen and (max-width: 1200px) {
     .navbar a{
@@ -279,6 +430,103 @@ font-family: 'Lato', sans-serif;
     color:#fff;
     font-weight: 800;
 }
+}
+
+
+/*ABOUT ME PAGE*/
+/*
+@media only screen and (max-width: 1200px) {
+.maintext h2{
+    color:#51cae2;
+    font-size:4.625em; 
+    font-weight: 800;
+    line-height:90%;
+    margin-top:30px;
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+.maintext h3{
+    color:#51cae2;
+    font-size:1.15em;
+    font-weight: 800;
+    line-height:100%;
+    margin-top:10px;
+    padding-bottom:40px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 10px;
+    padding-left:80px;
+  
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+.maintext h4{
+    color:black;
+    font-size:1em; 
+    font-weight: 400;
+    line-height:110%;
+    padding-bottom: 20px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:80px;
+ 
+}
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+.maintext p{
+    color:black;
+    font-size:0.75em; 
+    font-weight: 400;
+    line-height:110%;
+    padding-bottom: 20px;
+    text-align:left;
+    padding-left:80px;
+    font-family: 'Lato', sans-serif;
+
+
+    
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.maintext img{
+    
+   max-height:430px;
+       
+    
+}
+}*/
+
+
+/*
+ABOUT ME PAGE
+*/
+
+
+
+
+
+
+/*900-991PX EDITS*/
+
+
+@media only screen and (max-width: 900px) {
+    .navbar-brand{
+    height:85px;
+    padding-left:60px;
+    
+}
+
 }
     
 @media only screen and (max-width: 991px) {
@@ -314,6 +562,192 @@ font-family: 'Lato', sans-serif;
 }
     }
 
+@media only screen and (max-width: 991px) {
+.maincontainer button{
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 180px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    font-size:1.25em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+}
+
+
+/*ABOUT ME PAGE*/
+
+/*
+@media only screen and (max-width: 991px) {
+.maintext h2{
+    color:#51cae2;/
+    font-size:3em; 
+    font-weight: 800;
+    line-height:90%;
+    margin-top:30px;
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+}
+*/
+
+
+/*@media only screen and (max-width: 991px) {
+.maintext h3{
+    color:#51cae2;
+    font-size:1em;
+    font-weight: 800;
+    line-height:100%;
+    margin-top:10px;
+    padding-bottom:10px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 10px;
+    padding-left:30px;
+  
+}
+}*/
+
+
+/*@media only screen and (max-width: 991px) {
+.maintext h4{
+    color:black;
+    font-size:0.85em; 
+    font-weight: 400;
+    line-height:110%;
+    padding-bottom: 10px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:30px;
+ 
+}
+
+}*/
+
+/*
+
+@media only screen and (max-width: 991px) {
+.maintext p{
+    color:black;
+    font-size:0.65em; 
+    font-weight: 400;
+    line-height:110%;
+    padding-bottom: 10px;
+    text-align:left;
+    padding-left:30px;
+    font-family: 'Lato', sans-serif;
+
+
+    
+}
+}
+*/
+
+/*@media only screen and (max-width: 991px) {
+.maintext img{
+    
+   max-height:300px;
+       
+    
+}
+}*/
+
+
+/*
+ABOUT ME PAGE
+*/
+
+
+/*CONTACT PAGE*/
+@media only screen and (max-width: 991px) {
+    .contactmatt h2{
+    color:#51cae2;/* make the text white*/
+    font-size: 3em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:80px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+    }
+@media only screen and (max-width: 991px) {
+.contactmatt h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.25em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:0px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 20px;
+}
+}
+
+
+@media only screen and (max-width: 991px) {
+.contactmatt h4{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 50x;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:60px;
+
+}
+}
+
+@media only screen and (max-width: 991px) {
+.contactmatt h5{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 30px;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    padding-left:60px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.contactmatt p{
+    color:black;/* make the text white*/
+    font-size:0.85em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    margin-top:40px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+}
+
+
+
+
+
+
+
+
+
+/*715PX EDITS*/
+
 @media only screen and (max-width: 715px) {
 .herobg{
     height: 600px;
@@ -324,15 +758,6 @@ font-family: 'Lato', sans-serif;
 }
 }
 
-@media only screen and (max-width: 470px) {
-.herobg{
-    height: 500px;
-    background: url("images/background_image2.jpg") no-repeat  center center;
-    background-size: cover;
-   
-    
-}
-}
     
 @media only screen and (max-width: 715px) {
     .herobg h1{
@@ -392,45 +817,6 @@ font-family: 'Lato', sans-serif;
 
     }
 
-@media only screen and (max-width: 991px) {
-    .maincontainer h2{
-    color:#51cae2;/* make the text white*/
-    font-size: 3em; /* 114px font size in photoshop divided by 16px= 7.125*/
-    font-weight: 800;/* make the text bold*/
-    line-height:90%;/* decrease the line height*/
-    margin-top:80px;/* the words are 140px away from the navbar in photoshop*/
-    text-align:center;
-    font-family: 'Amaranth', sans-serif;
-}
-
-    }
-@media only screen and (max-width: 991px) {
-.maincontainer h3{
-    color:#51cae2;/* make the text white*/
-    font-size:2.25em; /* 114px font size in photoshop divided by 16px= 7.125*/
-    font-weight: 800;/* make the text bold*/
-    line-height:90%;/* decrease the line height*/
-    margin-top:60px;/* the words are 140px away from the navbar in photoshop*/
-    text-align:center;
-    font-family: 'Amaranth', sans-serif;
-    padding-bottom: 40px;
-}
-}
-
-@media only screen and (max-width: 991px) {
-.maincontainer p{
-    color:black;/* make the text white*/
-    font-size:0.85em; /* 114px font size in photoshop divided by 16px= 7.125*/
-    font-weight: 800;/* make the text bold*/
-    line-height:110%;/* decrease the line height*/
-    margin-top:40px;/* the words are 140px away from the navbar in photoshop*/
-    text-align:center;
-    font-family: 'Lato', sans-serif;
-
-    
-}
-}
-
 
 
 @media only screen and (max-width: 715px) {
@@ -443,10 +829,9 @@ font-family: 'Lato', sans-serif;
     
    
 }
-    
-
 
 }
+
 
 @media only screen and (max-width: 715px) {
  .rightfoot h1{
@@ -461,6 +846,7 @@ font-family: 'Lato', sans-serif;
 
 }
 
+
 @media only screen and (max-width: 715px) {
  .rightfoot p{
     text-align:center;
@@ -474,28 +860,7 @@ font-family: 'Lato', sans-serif;
 
 }
 
-@media only screen and (max-width: 991px) {
-.maincontainer button{
-    background-color:#ff66cc;
-    border:none;
-    color:white;
-    padding:10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 180px;
-    text-align:center;
-    text-decoration: none;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    margin-top: 40px;
-    font-size:1.25em;
-    border-radius: 16px;
-    transition: all 0.5s;
-    font-family: 'Amaranth', sans-serif;
-}
-}
+
 
 @media only screen and (max-width: 715px) {
     .navbar-brand{
@@ -505,6 +870,22 @@ font-family: 'Lato', sans-serif;
 }
 
     }
+
+
+
+
+
+/*470/460PX EDITS*/
+
+@media only screen and (max-width: 470px) {
+.herobg{
+    height: 500px;
+    background: url("images/background_image2.jpg") no-repeat  center center;
+    background-size: cover;
+   
+    
+}
+}
 
 @media only screen and (max-width: 460px) {
     .herobg h1{
@@ -681,6 +1062,9 @@ font-family: 'Lato', sans-serif;
 
 }
 
+
+
+/*FOOTER */
 
 @media only screen and (max-width: 992px) {
     .leftfoot{
