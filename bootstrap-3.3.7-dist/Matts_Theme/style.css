@@ -1,16 +1,17 @@
 .navbar a{
-   font-size:0.875em;
+   font-size:1em;
    margin-top:20px;
-    margin-left:30px;
+    margin-right:50px;
     
     font-family: 'Amaranth', sans-serif;
     color:#fff;
     font-weight: 800;
 }
 
+
 .navbar-brand{
     height:100px;
-    padding-left:130px;
+    padding-left:120px;
     
 }
 
@@ -199,6 +200,11 @@ font-family: 'Lato', sans-serif;
 .leftfoot{
     padding:20px;
 }
+.leftfoot a{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .leftfoot h1{
     text-align:center;
@@ -211,12 +217,7 @@ font-family: 'Lato', sans-serif;
 }
 
 
-.leftfoot img{
-   padding-top; 10px;
-    margin:10px;
-   
-    
-}
+
 
 
 
@@ -262,17 +263,17 @@ font-family: 'Lato', sans-serif;
 @media only screen and (max-width: 900px) {
     .navbar-brand{
     height:85px;
-    padding-left:130px;
+    padding-left:60px;
     
 }
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .navbar a{
-   font-size:0.65em;
+   font-size:0.75em;
    margin-top:20px;
-    margin-left:30px;
+    margin-right:10px;
     
     font-family: 'Amaranth', sans-serif;
     color:#fff;
@@ -391,7 +392,7 @@ font-family: 'Lato', sans-serif;
 
     }
 
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 991px) {
     .maincontainer h2{
     color:#51cae2;/* make the text white*/
     font-size: 3em; /* 114px font size in photoshop divided by 16px= 7.125*/
@@ -403,7 +404,7 @@ font-family: 'Lato', sans-serif;
 }
 
     }
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 991px) {
 .maincontainer h3{
     color:#51cae2;/* make the text white*/
     font-size:2.25em; /* 114px font size in photoshop divided by 16px= 7.125*/
@@ -416,7 +417,7 @@ font-family: 'Lato', sans-serif;
 }
 }
 
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 991px) {
 .maincontainer p{
     color:black;/* make the text white*/
     font-size:0.85em; /* 114px font size in photoshop divided by 16px= 7.125*/
@@ -430,14 +431,7 @@ font-family: 'Lato', sans-serif;
 }
 }
 
-@media only screen and (max-width: 991px) {
- .leftfoot img{
-     display:block;
-     margin-left: auto;
-     margin-right: auto;
-    
-   
-}
+
 
 @media only screen and (max-width: 715px) {
  .leftfoot h1{
@@ -450,14 +444,7 @@ font-family: 'Lato', sans-serif;
    
 }
     
-@media only screen and (max-width: 715px) {
- .leftfoot img{
-     display:block;
-     margin-left: auto;
-     margin-right: auto;
-    
-   
-}
+
 
 }
 
@@ -487,7 +474,7 @@ font-family: 'Lato', sans-serif;
 
 }
 
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 991px) {
 .maincontainer button{
     background-color:#ff66cc;
     border:none;
@@ -512,7 +499,7 @@ font-family: 'Lato', sans-serif;
 
 @media only screen and (max-width: 715px) {
     .navbar-brand{
-    height:90px;
+    height:85px;
     padding-left:50px;
     
 }
@@ -653,13 +640,7 @@ font-family: 'Lato', sans-serif;
     
 
 }
-@media only screen and (max-width: 460px) {
-     .leftfoot img{
-     display:block;
-     margin-left: auto;
-     margin-right: auto;
-    }
-}
+
 
 @media only screen and (max-width: 460px) {
  .footerlogo{
