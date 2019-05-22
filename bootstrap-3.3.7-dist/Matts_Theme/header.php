@@ -42,38 +42,37 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+  <body>
+      <nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-                <img src="images/logo.png" alt=logo class="navbar-brand" href="#">
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">MY SERVICES</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <header class="container-fluid herobg">
-        <div class="container test">
-
-
-            <h1>Need staff for your next event?</h1>
-            <p>Hi I'm Matt! I'm a professional people greeter.</p>
-            <button class="button" style="vertical-align:middle" href="#"><span>BOOK NOW </span></button>
-
-        </div>
-
-    </header>
+      <img src="images/logo%202.png" alt=logo class="navbar-brand" href="#" >
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT ME</a></li>
+        <li><a href="#">MY SERVICES</a></li> 
+          <li><a href="#">CONTACT</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+      <header class="container-fluid herobg">
+      <div class="container">
+         
+          
+          <h1>Need staff for your next event?</h1>
+          <p>Hi, I'm Matt! I'm a professional people greeter.</p>
+           <button class="button" style="vertical-align:middle" href="#"><span>BOOK NOW </span></button>
+          
+          </div> <!--container-->
+      </header>
 </body>
 </html>

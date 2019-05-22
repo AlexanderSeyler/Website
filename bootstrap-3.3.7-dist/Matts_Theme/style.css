@@ -1,3 +1,11 @@
+/*   
+Theme Name: Matt's Wordpress Site
+Theme URI: http://showman.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://showman.com
+Version: 1
+*/ 
 .navbar{
     margin-bottom:0px;
 }
@@ -994,5 +1002,3 @@ font-family: 'Lato', sans-serif;
         padding-right:0px;    
 }
 }
-        
-        
