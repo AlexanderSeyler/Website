@@ -11,13 +11,13 @@
               
               <div class="col-sm-4">
                   <h3>Company</h3>
-              <img src="images/icon_company.png" alt="icon_company" class="center">
+              <img src="http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/icon_company.png" alt="icon_company" class="center">
                   <p>Opening days/nights, end-of-year employee parties and corporate engagements.</p>
               </div>
               
               <div class="col-sm-4">
                   <h3>Festivals</h3>
-              <img src="images/icon_festivals.png" alt="icon_festivals"  class="center">
+              <img src="http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/icon_festivals.png" alt="icon_festivals"  class="center">
                    <p>Music/band, writers, arts, markets, comedy and theatre.</p>
               </div>
  

@@ -4,12 +4,12 @@
               
           <div class="col-md-4 leftfoot text-center">
               <h1>Follow Matt on social media to keep updated!</h1>
-  <a><img src="images/facebook.png" alt="facebook" class="socialicon"  href="#"><img src="images/instagram.png"  alt="instagram" class="socialicon" href="#"></a>
+  <a><img src="http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/facebook.png" alt="facebook" class="socialicon"  href="#"><img src="ttp://localhost:8080/wordpress/wp-content/themes/matts_theme/images/instagram.png"  alt="instagram" class="socialicon" href="#"></a>
 
               </div> 
               
           <div class="col-md-4 middlefoot">
-               <img src="images/logo%202.png" alt="logo" class="footerlogo" href="#" >
+               <img src="http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/logo%202.png" alt="logo" class="footerlogo" href="#" >
               
   
               </div>   
