@@ -30,7 +30,7 @@
           
           </div> <!--row-->
           
-         <button class="button" style="vertical-align:middle" href="#"><span>BOOK NOW </span></button>
+         <button class="button" style="vertical-align:middle" href="http://localhost:8080/wordpress/services"><span>BOOK NOW </span></button>
           
           
           

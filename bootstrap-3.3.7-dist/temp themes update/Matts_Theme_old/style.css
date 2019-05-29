@@ -1,0 +1,998 @@
+.navbar{
+    margin-bottom:0px;
+}
+.navbar a{
+   font-size:1em;
+   margin-top:20px;
+    margin-right:50px;
+    
+    font-family: 'Amaranth', sans-serif;
+    color:#fff;
+    font-weight: 800;
+}
+
+.navbar-brand{
+    height:100px;
+    padding-left:120px;
+    
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+body{
+    background-color:#1a6a7d;  
+    font-size:16px;
+font-family: 'Lato', sans-serif;
+
+}
+.navbar{
+    background-color:#51cae2;
+}
+
+
+
+.herobg{
+    height: 900px;
+    background: url("images/background_image2.jpg") no-repeat  center center;
+    background-size: cover;
+   
+    
+}
+
+.herobg h1{
+    clear:both;
+       float:right;
+    color:#ffff;/* make the text white*/
+    width:550px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:6.25em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:220px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+
+}
+.herobg p{
+    clear:both;
+    float:right;
+    color:#ffff;/* make the text white*/
+    width:500px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:1.875em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    line-height:85%;/* decrease the line height*/
+    margin-top:20px;/* the words are 140px away from the navbar in photoshop*/
+    padding-right: 50px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.herobg button{
+    clear:both;
+    float:right;   
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-right: 165px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size:1.5625em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+
+.maincontainer{
+    background-color: #fff;
+    background: url("images/paint_background.jpg") no-repeat  center center;
+    background-size: cover;
+    
+
+}
+
+.maincontainer h2{
+    color:#51cae2;/* make the text white*/
+    font-size:5.625em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:80px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.maincontainer h3{
+    color:#51cae2;/* make the text white*/
+    font-size:3em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:80px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 40px;
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-height: 250px;
+}
+
+
+.maincontainer p{
+    color:black;/* make the text white*/
+    font-size:1.125em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    margin-top:40px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.maincontainer button{
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 210px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    font-size:1.8125em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.footerbg{
+   
+  background-color: #1a6a7d;
+    background-size:cover;
+    
+    
+}
+
+.leftfoot{
+    padding:20px;
+}
+.leftfoot a{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftfoot h1{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Amaranth', sans-serif;
+    font-size:1.5em;
+    
+   
+}
+
+
+.middlefoot{
+    padding:20px;
+}
+
+.footerlogo{
+    height:70px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:20px;
+    
+    
+}
+
+.rightfoot{
+    padding:20px;
+    
+}
+
+.rightfoot h1{
+    text-align:center;
+    color:#fff;
+     font-family: 'Amaranth', sans-serif;
+    font-size:1.5em;
+    
+   
+}
+.rightfoot p{
+    text-align:center;
+    color:#fff;
+     font-family: 'Lato', sans-serif;
+    font-size:1.125em;
+   margin:0px; 
+   
+}
+
+.socialicon{
+    
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*ABOUT ME PAGE*/
+
+.aboutme{
+    background-color:#fff;
+    
+}
+
+
+.maintext h2{
+    color:#51cae2;/* make the text white*/
+    font-size:4.625em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:30px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.maintext h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:100%;/* decrease the line height*/
+    margin-top:10px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 10px;
+
+}
+
+.maintext h4{
+    color:black;/* make the text white*/
+    font-size:1.15em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 20px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+
+}
+
+
+
+.maintext p{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+  /* padding-bottom: 20px;*/
+    padding-bottom: 20px;
+    text-align:left;
+
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.maintext img{
+    display:block;
+   max-height:500px;
+       
+    
+}
+
+
+/*ABOUT ME PAGE*/
+
+
+
+
+/*CONTACT PAGE*/
+
+.contactme{
+    background-color:#fff;
+    height: 100%;
+}
+
+
+.contactmatt h2{
+    color:#51cae2;/* make the text white*/
+    font-size:4.625em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:30px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.contactmatt h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:100%;/* decrease the line height*/
+    margin-top:10px;/* the words are 140px away from the navbar in photoshop*/
+    padding-bottom:40px;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 10px;
+    padding-left:60px;
+}
+
+.contactmatt h4{
+    color:black;/* make the text white*/
+    font-size:1.15em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 50x;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:60px;
+}
+
+.contactmatt h5{
+    color:black;/* make the text white*/
+    font-size:1.15em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 30px;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    padding-left:60px;
+}
+
+
+.contactmatt p{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+  /* padding-bottom: 20px;*/
+    padding-bottom: 20px;
+    text-align:left;
+    padding-left:60px;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+
+
+/*CONTACT PAGE*/
+
+
+
+
+
+
+
+
+/*1200PX EDITS*/
+
+@media only screen and (max-width: 1200px) {
+    .navbar a{
+   font-size:0.75em;
+   margin-top:20px;
+    margin-right:10px;
+    
+    font-family: 'Amaranth', sans-serif;
+    color:#fff;
+    font-weight: 800;
+}
+}
+
+
+/*ABOUT ME PAGE*/
+
+@media only screen and (max-width: 1199px) {
+    
+    .aboutme img{
+    max-height: 400px;
+   border-bottom: gray 1px solid;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-sm-6
+        {width:100%;}
+    
+    .aboutme p{
+        max-width: 700px;
+        text-align: center;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .aboutme h4{
+        max-width: 700px;
+         text-align: center;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .aboutme h3{
+        max-width: 700px;
+         text-align: center;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 460px) {
+    
+    .aboutme h2{
+        font-size: 3em;
+    }
+     .maintext img{
+    max-height: 200px;
+   border-bottom: gray 1px solid;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/*900-991PX EDITS*/
+
+
+@media only screen and (max-width: 900px) {
+    .navbar-brand{
+    height:85px;
+    padding-left:60px;
+    
+}
+
+}
+    
+@media only screen and (max-width: 991px) {
+    .herobg h1{
+    clear:both;
+       float:right;
+    color:#ffff;/* make the text white*/
+    width:550px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:220px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+
+}
+    }
+    
+@media only screen and (max-width: 991px) {
+    .herobg p{
+    clear:both;
+    float:right;
+    color:#ffff;/* make the text white*/
+    width:500px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:1.5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    line-height:85%;/* decrease the line height*/
+    margin-top:20px;/* the words are 140px away from the navbar in photoshop*/
+    padding-right: 50px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+
+}
+    }
+
+@media only screen and (max-width: 991px) {
+.maincontainer button{
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 180px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    font-size:1.25em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+}
+
+
+
+
+/*CONTACT PAGE*/
+@media only screen and (max-width: 991px) {
+    .contactmatt h2{
+    color:#51cae2;/* make the text white*/
+    font-size: 3em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:80px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+    }
+@media only screen and (max-width: 991px) {
+.contactmatt h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.25em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:0px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 20px;
+}
+}
+
+
+@media only screen and (max-width: 991px) {
+.contactmatt h4{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 50x;
+    text-align:left;
+    font-family: 'Amaranth', sans-serif;
+    padding-left:60px;
+
+}
+}
+
+@media only screen and (max-width: 991px) {
+.contactmatt h5{
+    color:black;/* make the text white*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 400;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    padding-bottom: 30px;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    padding-left:60px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.contactmatt p{
+    color:black;/* make the text white*/
+    font-size:0.85em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    margin-top:40px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+}
+
+
+
+
+
+
+
+
+
+/*715PX EDITS*/
+
+@media only screen and (max-width: 715px) {
+.herobg{
+    height: 600px;
+    background: url("images/background_image2.jpg") no-repeat  center center;
+    background-size: cover;
+   
+    
+}
+}
+
+    
+@media only screen and (max-width: 715px) {
+    .herobg h1{
+    clear:both;
+       float:right;
+    color:#ffff;/* make the text white*/
+    width:350px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:3.75em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:120px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+
+}
+    }
+    
+@media only screen and (max-width: 715px) {
+    .herobg p{
+    clear:both;
+    float:right;
+    color:#ffff;/* make the text white*/
+    width:300px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:1.25em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    line-height:100%;/* decrease the line height*/
+    margin-top:20px;/* the words are 140px away from the navbar in photoshop*/
+    padding-right: 50px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+
+}
+    }
+
+@media only screen and (max-width: 715px) {
+    .herobg button{
+    clear:both;
+    float:right;   
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size:1.125em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+
+    }
+
+
+
+@media only screen and (max-width: 715px) {
+ .leftfoot h1{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Amaranth', sans-serif;
+    font-size:1.15em;
+    
+   
+}
+
+}
+
+
+@media only screen and (max-width: 715px) {
+ .rightfoot h1{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Amaranth', sans-serif;
+    font-size:1.15em;
+    
+   
+}
+
+}
+
+
+@media only screen and (max-width: 715px) {
+ .rightfoot p{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Lato', sans-serif;
+    font-size:0.95em;
+    
+   
+}
+
+}
+
+
+
+@media only screen and (max-width: 715px) {
+    .navbar-brand{
+    height:85px;
+    padding-left:50px;
+    
+}
+
+    }
+
+
+
+
+
+/*470/460PX EDITS*/
+
+@media only screen and (max-width: 470px) {
+.herobg{
+    height: 500px;
+    background: url("images/background_image2.jpg") no-repeat  center center;
+    background-size: cover;
+   
+    
+}
+}
+
+@media only screen and (max-width: 460px) {
+    .herobg h1{
+    clear:both;
+       float:right;
+    color:#ffff;/* make the text white*/
+    width:250px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:2.85em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:120px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+        padding-right:-20px;
+    font-family: 'Amaranth', sans-serif;
+
+}
+    }
+    
+@media only screen and (max-width: 460px) {
+    .herobg p{
+    clear:both;
+    float:right;
+    color:#ffff;/* make the text white*/
+    width:230px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:1em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    line-height:85%;/* decrease the line height*/
+    margin-top:20px;/* the words are 140px away from the navbar in photoshop*/
+    padding-right: 20px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+
+}
+    }
+
+@media only screen and (max-width: 460px) {
+    .herobg button{
+    clear:both;
+    float:right;   
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size:0.85em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+
+    }
+
+@media only screen and (max-width: 460px) {
+    .maincontainer h2{
+    color:#51cae2;/* make the text white*/
+    font-size: 2.5em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:80px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+}
+
+    }
+@media only screen and (max-width: 460px) {
+.maincontainer h3{
+    color:#51cae2;/* make the text white*/
+    font-size:1.75em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:90%;/* decrease the line height*/
+    margin-top:40px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Amaranth', sans-serif;
+    padding-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 460px) {
+.maincontainer p{
+    color:black;/* make the text white*/
+    font-size:0.75em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    font-weight: 800;/* make the text bold*/
+    line-height:110%;/* decrease the line height*/
+    margin-top:40px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+}
+
+@media only screen and (max-width: 460px) {
+.maincontainer button{
+    background-color:#ff66cc;
+    border:none;
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 160px;
+    text-align:center;
+    text-decoration: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    font-size:1.15em;
+    border-radius: 16px;
+    transition: all 0.5s;
+    font-family: 'Amaranth', sans-serif;
+}
+}
+
+@media only screen and (max-width: 460px) {
+ .leftfoot h1{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Amaranth', sans-serif;
+    font-size:0.95em;
+    
+   
+}
+    
+
+}
+
+
+@media only screen and (max-width: 460px) {
+ .footerlogo{
+    height:50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:20px;
+    
+    
+}
+
+}
+
+@media only screen and (max-width: 460px) {
+ .rightfoot h1{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Amaranth', sans-serif;
+    font-size:0.95em;
+    
+   
+}
+
+}
+
+@media only screen and (max-width: 460px) {
+ .rightfoot p{
+    text-align:center;
+    width:auto;
+    color:#fff;
+     font-family: 'Lato', sans-serif;
+    font-size:0.75em;
+    
+   
+}
+
+}
+
+
+
+/*FOOTER */
+
+@media only screen and (max-width: 992px) {
+    .leftfoot{
+    width:100%;   /* at 992px make the width of leftfoot 50% of the screen size- Bootstrap  
+                          would normally make this div 100%*/
+        padding-left:0px;/* remove any Bootstrap padding that mess with our media query*/
+        padding-right:0px;/* remove any Bootstrap padding that mess with our media 
+                                        query*/
+    
+        
+} 
+    }
+    
+    
+@media only screen and (max-width: 992px) {
+    .middlefoot{
+    width:100%;   /* at 992px make the width of leftfoot 50% of the screen size- Bootstrap  
+                          would normally make this div 100%*/
+        padding-left:0px;/* remove any Bootstrap padding that mess with our media query*/
+        padding-right:0px;/* remove any Bootstrap padding that mess with our media 
+                                        query*/
+        
+}
+    }
+    
+@media only screen and (max-width: 992px) {
+    .rightfoot{
+        width:100%;  /* at 992px make the width of leftfoot 50% of the screen size- Bootstrap would normally make this div 100%*/
+          padding-left:0px;
+        padding-right:0px;    
+}
+}
+        
+        

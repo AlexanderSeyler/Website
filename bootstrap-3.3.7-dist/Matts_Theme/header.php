@@ -33,8 +33,7 @@
     <!—Viewport responsive  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>
-http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/favicon.jpg">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/favicon.jpg">
     
     <!—Google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Amaranth:400,700" rel="stylesheet">
@@ -66,6 +65,7 @@ wp_nav_menu( array(
 'walker'=> new WP_Bootstrap_Navwalker())
 );
 ?>
+
     </div>
   </div>
 </nav>
@@ -76,7 +76,7 @@ wp_nav_menu( array(
           
           <h1>Need staff for your next event?</h1>
           <p>Hi, I'm Matt! I'm a professional people greeter.</p>
-           <button class="button" style="vertical-align:middle" href="#"><span>BOOK NOW </span></button>
+           <button class="button" style="vertical-align:middle" href="http://localhost:8080/wordpress/services/"><span>BOOK NOW </span></button>
           
           </div> <!--container-->
       </header>

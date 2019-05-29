@@ -33,7 +33,8 @@
     <!—Viewport responsive  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/favicon.jpg">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>
+http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/favicon.jpg">
     
     <!—Google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Amaranth:400,700" rel="stylesheet">
@@ -54,12 +55,17 @@
       <img src="http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/logo%202.png" alt=logo class="navbar-brand" href="#" >
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT ME</a></li>
-        <li><a href="#">MY SERVICES</a></li> 
-          <li><a href="#">CONTACT</a></li> 
-      </ul>
+      <?php
+wp_nav_menu( array(
+'menu' => 'Primary',
+'depth' => 2,
+'container' => false,
+'menu_class' => 'nav navbar-nav navbar-right',
+'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+//Process nav menu using our custom nav walker
+'walker'=> new WP_Bootstrap_Navwalker())
+);
+?>
     </div>
   </div>
 </nav>

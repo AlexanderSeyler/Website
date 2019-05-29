@@ -152,7 +152,7 @@ font-family: 'Lato', sans-serif;
     
 }
 
-.maincontainer button{
+.a{
     background-color:#ff66cc;
     border:none;
     color:white;
@@ -180,6 +180,7 @@ font-family: 'Lato', sans-serif;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+    
 }
 
 .button span:after {
@@ -385,7 +386,7 @@ font-family: 'Lato', sans-serif;
     text-align:left;
     font-family: 'Amaranth', sans-serif;
     padding-bottom: 10px;
-    padding-left:60px;
+    padding-left:0px;
 }
 
 .contactmatt h4{

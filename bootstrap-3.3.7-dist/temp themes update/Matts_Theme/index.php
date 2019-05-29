@@ -5,7 +5,7 @@
           <div class="row">
           <div class="col-sm-4">
               <h3>Parties</h3>
-              <img src="http://localhost:8080/wordpress/wp-content/themes/matts_theme/images/icon_parties.png" alt="icon_parties" class="center">
+              <img src="http://localhost:8080/wordpress/wp-content/themes/Matts_Theme/images/icon_parties.png" alt="icon_parties" class="center">
               <p>Birthdays, engagements, holiday parties and social events.</p>
               </div>
               
